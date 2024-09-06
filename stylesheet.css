@@ -1,90 +1,103 @@
-l*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+l* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-.form{
-    background-color: lightgray;
-    width: 528px;
-    -moz-border-radius:5px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px; //edit :D 
+.header {
+  background-color: teal;
+  box-sizing: border-box;
+  width: 530px;
+  line-height: 15px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+.header h1 {
+  margin-left: 10px;
+  font-size: 40px;
+}
+.form {
+  background-color: lightgray;
+  width: 528px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px; //edit :D
 }
 .jost-font {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: roman;
-  }
-  .fieldset{
-    width: 500px;
-    -moz-border-radius:4px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px; //edit :D 
-  }
- .input{
-    position: relative;
-    padding: 10px 0;
- }
-  .name{
-   appearance: none;
-   background-color:white;
-   border: 1px solid teal;
-   line-height: 2;
-   width: 100%;
-   display: block;
-   box-sizing: border-box;
-   padding: 10px 15px;
-   border-radius: 60px;
-   color: teal;
-   position: relative;
-   z-index: 1;
-
-  }
-  .email{
-    appearance: none;
-   background-color:white;
-   border: 1px solid teal;
-   line-height: 3;
-   width: 100%;
-   display: block;
-   box-sizing: border-box;
-   padding: 0px 15px 0 ;
-   border-radius: 60px;
-   color: teal;
-   position: relative;
-   z-index: 1;
-  }
-  .dropdown{
-    margin-bottom: 5px;
-    margin-top: 2px;
-    margin-left: 10px;
-    box-sizing: border-box;
-    width: 20%;
-    background-color: white;
-    border: 1px solid teal;
-    line-height: 1.5;
-    padding: 0 12px;
-    border-radius: 10px;
-  }
-  .recommendation{
-    margin-bottom: 5px;
-  }
-  .radio-b{
-    margin-left: 10px;
-  }
-  .comments{
-   box-sizing: border-box;
-   border: 1px solid teal;
-   width: 500px;
-   height: 200px;
-   background-color: white;
-   border-radius: 10px;
-  }
-  .s-button{
-    background-origin: padding-box;
-    border: 1px solid teal;
-  }
-  
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: roman;
+}
+.fieldset {
+  width: 500px;
+  -moz-border-radius: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px; //edit :D
+}
+.input {
+  position: relative;
+  padding: 10px 0;
+}
+.name {
+  appearance: none;
+  background-color: white;
+  border: 1px solid teal;
+  line-height: 2;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: teal;
+  position: relative;
+  z-index: 1;
+}
+.email {
+  appearance: none;
+  background-color: white;
+  border: 1px solid teal;
+  line-height: 3;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0px 15px 0;
+  border-radius: 60px;
+  color: teal;
+  position: relative;
+  z-index: 1;
+}
+.dropdown {
+  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  width: 20%;
+  background-color: white;
+  border: 1px solid teal;
+  line-height: 1.5;
+  padding: 0 12px;
+  border-radius: 10px;
+}
+.recommendation {
+  margin-bottom: 5px;
+}
+.radio-b {
+  margin-left: 10px;
+}
+.comments {
+  box-sizing: border-box;
+  border: 1px solid teal;
+  width: 498px;
+  height: 191px;
+  background-color: white;
+  border-radius: 9px;
+}
+.subscription {
+  margin-top: 5px;
+}
+.s-button {
+  margin-top: 5px;
+}

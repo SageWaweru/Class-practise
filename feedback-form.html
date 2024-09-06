@@ -1,65 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="stylesheet.css">
-    <title>Feedback form</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Feedback form</title>
+</head>
+
+<body>
+  <header class="header">
     <h1>Customer Feedback Form</h1>
-    <form class="form">
-      <fieldset class="fieldset">
-        <a class="jost-font">
-          <div class="input">
-            <label for="customer name">Name:</label> <br />
-            <a class="name"><input type="text" name="customer name" id="" value="Your name" /><br /></a>
-          </div>
-          <div class="input">
-            <label for="customer email">Email:</label><br />
-            <a class="email">
-              <input
-                type="email"
-                name="customer email"
-                id=""
-                value="Your email"
-              />
-          </div>
-          </a><br />
-          <label for="customer ratings">Rate your experience:</label>
-          <div class="dropdown">
-            <select name="customer ratings" id="">
-              <option value="excellent">Excellent</option>
-              <option value="good">Good</option>
-              <option value="average">Average</option>
-              <option value="poor">Poor</option></select
-            ><br />
-            </div>
-          <div class="recommendation">
-            <label for="recommendation"
-              >Would you recommend this website to others?</label
-            ><br />
-            <div class="radio-b">
-              <label for="recommendation">Yes</label>
-              <input type="radio" name="recommendation" id="" value="yes" />
-              <label for="recommendation">No</label>
-              <input type="radio" name="recommendation" id="" value="no" /><br />
-            </div>
-          </div>
-          <label for="comments">Comments:</label><br />
-          <div class="comments">
-            <textarea name="comments" id="" cols="65" rows="12"></textarea><br />
-          </div>
-          <label for="subscription"
-            >Do you want to subscribe to our website newsletter?</label
-          ><br />
-          <label for="answer">Yes</label>
-          <input type="checkbox" name="answer" id="" value="yes" />
-          <label for="answer">No</label>
-          <input type="checkbox" name="answer" id="" value="no" /><br />
-          
-        <a s-button><input type="submit" value="Submit" /></a> </a>
-      </fieldset>
-    </form>
-  </body>
+  </header>
+  <form class="form">
+    <fieldset class="fieldset">
+      <a class="jost-font">
+        <div class="input">
+          <label for="customer name">Name:</label> <br />
+          <a class="name"><input type="text" name="customer name" id="" value="Your name" /><br /></a>
+        </div>
+        <div class="input">
+          <label for="customer email">Email:</label><br />
+          <a class="email">
+            <input type="email" name="customer email" id="" value="Your email" />
+        </div>
+      </a><br />
+      <label for="customer ratings">Rate your experience:</label>
+      <div class="dropdown">
+        <select name="customer ratings" id="">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+          <option value="poor">Poor</option>
+        </select><br />
+      </div>
+      <div class="recommendation">
+        <label for="recommendation">Would you recommend this website to others?</label><br />
+        <div class="radio-b">
+          <label for="recommendation">Yes</label>
+          <input type="radio" name="recommendation" id="" value="yes" />
+          <label for="recommendation">No</label>
+          <input type="radio" name="recommendation" id="" value="no" /><br />
+        </div>
+      </div>
+      <label for="comments">Comments:</label><br />
+      <div class="comments">
+        <textarea name="comments" id="" cols="65" rows="12"></textarea><br />
+      </div>
+      <div class="subscription">
+        <label for="subscription">Do you want to subscribe to our website newsletter?</label><br />
+        <label for="answer">Yes</label>
+        <input type="checkbox" name="answer" id="" value="yes" />
+        <label for="answer">No</label>
+        <input type="checkbox" name="answer" id="" value="no" /><br />
+      </div>
+      <div class="s-button">
+        <input type="submit" value="Submit">
+      </div>
+    </fieldset>
+  </form>
+</body>
+
 </html>
